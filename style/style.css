@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(250, 205, 7);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: rgb(211, 8, 8);
+}
+p{
+    margin: 50px;
+}
+ol{
+    list-style:lower-latin;
+}
+#links{
+    margin-top: 100px;
+}
+#conteiner{
+    margin-top: 5vh;
+    /* display flex deixa lado a lado */
+    display: flex;
+    justify-content: center;
+}
+#foto{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin-top: 5vh;
+}
+#esquerda{
+    background-color: aquamarine;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    border-right: 3.5px solid blue;
+    border-top: 3.5px solid blue; ;
+}
+#direita{
+    background-color: aqua;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    border-bottom: 3.5px solid blue; 
+}
+#conhecimento{
+    font-size: larger;
+    width: 100px;
+    margin: auto;
+    margin-top: 200px;
+
+}
+#objetivo{
+    font-size: larger;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+#sobre{
+    font-size: larger;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+#icones{
+    margin-top: 100px;
+}
+#linkedin{
+    width: 40px;
+    height: 40px;
+}
+#github{
+    width: 40px;
+    height: 40px;
+}
